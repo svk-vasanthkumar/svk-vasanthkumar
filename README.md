@@ -1,5 +1,9 @@
+<h1 align="center">👋 VASANTHKUMAR S</h1>
+
+###
+
 <div align="center">
-  <img height="150" src="https://secondary-lavender-qke1xvgpdr.edgeone.app/Generated%20Image%20October%2008,%202025%20-%207_05PM%20(1)2.png"  />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=svk-vasanthkumar.svk-vasanthkumar&"  />
 </div>
 
 ###
@@ -21,21 +25,11 @@
 
 ###
 
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=svk-vasanthkumar.svk-vasanthkumar&"  />
-</div>
-
-###
-
-<h1 align="center">👋 VASANTHKUMAR S</h1>
-
-###
-
 <h3 align="left">👩‍💻  About Me</h3>
 
 ###
 
-<h4 align="center">🎓 IT Student passionate about tech & innovation<br>💻 Exploring the world of Software Engineering<br>🚀 Aiming for a career in IT & Development<br>🌱 Always learning, building & improving</h4>
+<p align="center">🎓 IT Student passionate about tech & innovation<br>💻 Exploring the world of Software Engineering<br>🚀 Aiming for a career in IT & Development<br>🌱 Always learning, building & improving</p>
 
 ###
 
@@ -94,10 +88,6 @@
   <img src="https://github-profile-trophy.vercel.app?username=svk-vasanthkumar&theme=darkhub&no-frame=true&no-bg=true&margin-w=13&margin-h=0" height="150" alt="trophy graph"  />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=svk-vasanthkumar&theme=chartreuse-dark&area=true&hide_border=false&hide_title=false" height="150" alt="activity-graph graph"  />
 </div>
-
-###
-
-<img src="https://raw.githubusercontent.com/svk-vasanthkumar/svk-vasanthkumar/output/snake.svg" alt="Snake animation" />
 
 ###
 
