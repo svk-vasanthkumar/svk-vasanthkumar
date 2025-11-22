@@ -89,7 +89,7 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=svk-vasanthkumar&theme=chartreuse-dark&area=true&hide_border=false&hide_title=false" height="150" alt="activity-graph graph"  />
 </div>
 
-###
+### 
 
 <div>
   <img style="100%" src="https://capsule-render.vercel.app/api?type=speech&height=100&section=header&reversal=false&text=S%20%20%20%20V%20%20%20%20%20%20%20%20K&fontSize=63&fontAlign=50&fontAlignY=50&stroke=-&animation=twinkling&descSize=20&descAlign=50&descAlignY=50&textBg=false&theme=merko"  />
