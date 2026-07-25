@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 160" width="100%" height="160">
+  <defs>
+    <!-- Glow Filters -->
+    <filter id="glow-orange" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glow-green" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Small Hexagon Symbol -->
+    <polygon id="hex" points="0,-4 3.46,-2 3.46,2 0,4 -3.46,2 -3.46,-2" fill="none" stroke="#FF6A00" stroke-width="1.2"/>
+  </defs>
+
+  <!-- HUD Corners -->
+  <g fill="none" stroke="#FF6A00" stroke-width="1.5" opacity="0.6">
+    <!-- Top Left -->
+    <path d="M 30 50 L 30 30 L 50 30" />
+    <path d="M 36 46 L 36 36 L 46 36" stroke-width="1" opacity="0.5" />
+    <!-- Top Right -->
+    <path d="M 1250 50 L 1250 30 L 1230 30" />
+    <path d="M 1244 46 L 1244 36 L 1234 36" stroke-width="1" opacity="0.5" />
+    <!-- Bottom Left -->
+    <path d="M 30 110 L 30 130 L 50 130" />
+    <path d="M 36 114 L 36 124 L 46 124" stroke-width="1" opacity="0.5" />
+    <!-- Bottom Right -->
+    <path d="M 1250 110 L 1250 130 L 1230 130" />
+    <path d="M 1244 114 L 1244 124 L 1234 124" stroke-width="1" opacity="0.5" />
+  </g>
+
+  <!-- HUD Corner Indicators -->
+  <g fill="#39FF14" filter="url(#glow-green)">
+    <circle cx="30" cy="30" r="1.5" />
+    <circle cx="1250" cy="30" r="1.5" />
+    <circle cx="30" cy="130" r="1.5" />
+    <circle cx="1250" cy="130" r="1.5" />
+  </g>
+
+  <!-- Left Side Circuit Decorations -->
+  <g fill="none" stroke="#FF6A00" stroke-width="1" opacity="0.5">
+    <path d="M 180 60 L 220 60 L 240 80 L 320 80" />
+    <path d="M 270 140 L 260 130 L 240 130" />
+  </g>
+  <!-- Left Nodes & Indicators -->
+  <circle cx="180" cy="60" r="2.5" fill="#39FF14" filter="url(#glow-green)" />
+  <circle cx="320" cy="80" r="1.5" fill="#FF6A00" />
+  <line x1="260" y1="80" x2="280" y2="80" stroke="#39FF14" stroke-width="2.5" filter="url(#glow-green)" />
+  <use href="#hex" x="120" y="60" opacity="0.5" />
+  <use href="#hex" x="160" y="120" opacity="0.3" />
+
+  <!-- Right Side Circuit Decorations -->
+  <g fill="none" stroke="#FF6A00" stroke-width="1" opacity="0.5">
+    <path d="M 1100 60 L 1060 60 L 1040 80 L 960 80" />
+    <path d="M 1010 140 L 1020 130 L 1040 130" />
+  </g>
+  <!-- Right Nodes & Indicators -->
+  <circle cx="1100" cy="60" r="2.5" fill="#39FF14" filter="url(#glow-green)" />
+  <circle cx="960" cy="80" r="1.5" fill="#FF6A00" />
+  <line x1="1000" y1="80" x2="1020" y2="80" stroke="#39FF14" stroke-width="2.5" filter="url(#glow-green)" />
+  <use href="#hex" x="1160" y="60" opacity="0.5" />
+  <use href="#hex" x="1120" y="120" opacity="0.3" />
+
+  <!-- Center Typography -->
+  <g text-anchor="middle" font-family="'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'">
+    <!-- Connection Closed -->
+    <text x="640" y="62" font-size="20" font-weight="700" fill="#FFFFFF" letter-spacing="1.5">Connection Closed</text>
+    
+    <!-- Session Saved Successfully -->
+    <text x="640" y="88" font-size="13" font-weight="400" fill="#AAAAAA" letter-spacing="0.5">Session Saved Successfully</text>
+    
+    <!-- Awaiting Next Commit -->
+    <text x="640" y="115" font-family="'Fira Code', 'JetBrains Mono', Consolas, Monaco, monospace" font-size="14" font-weight="500" fill="#39FF14" filter="url(#glow-green)" letter-spacing="0.5">
+      &gt; Awaiting Next Commit...<tspan fill="#FF6A00">_</tspan>
+    </text>
+  </g>
+
+  <!-- Bottom Glowing Orange Divider -->
+  <g stroke="#FF6A00" fill="none">
+    <!-- Main Lines -->
+    <line x1="280" y1="140" x2="620" y2="140" stroke-width="1.5" filter="url(#glow-orange)" />
+    <line x1="660" y1="140" x2="1000" y2="140" stroke-width="1.5" filter="url(#glow-orange)" />
+    
+    <!-- Center Hexagon Status -->
+    <polygon points="630,140 635,134 645,134 650,140 645,146 635,146" stroke="#39FF14" stroke-width="1.5" filter="url(#glow-green)" />
+    <circle cx="640" cy="140" r="1.5" fill="#FFFFFF" stroke="none" />
+    
+    <!-- Divider End Nodes -->
+    <circle cx="280" cy="140" r="2" fill="#FF6A00" stroke="none" filter="url(#glow-orange)" />
+    <circle cx="1000" cy="140" r="2" fill="#FF6A00" stroke="none" filter="url(#glow-orange)" />
+    
+    <!-- HUD Ticks Left -->
+    <path d="M 400 138 L 400 142 M 420 137 L 420 143 M 440 138 L 440 142" stroke-width="1" opacity="0.6" />
+    
+    <!-- HUD Ticks Right -->
+    <path d="M 880 138 L 880 142 M 860 137 L 860 143 M 840 138 L 840 142" stroke-width="1" opacity="0.6" />
+  </g>
+
+</svg>
