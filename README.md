@@ -126,11 +126,7 @@ svk@kascore:~$ status
 
 <div align="center">
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+<img src="footer.svg"/>
 
-**Thanks for visiting.**
-See you in the next commit. 🟠
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D0D0D,100:FF6A00&height=3&width=100%"/>
 
 </div>
