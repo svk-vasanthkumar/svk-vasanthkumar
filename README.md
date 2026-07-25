@@ -1,98 +1,136 @@
-<h1 align="center">🤔 VASANTHKUMAR S</h1>
+<div align="center">
 
-###
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0D0D0D,100:FF6A00&text=VASANTHKUMAR%20S&fontColor=FFFFFF&fontSize=48&fontAlignY=35&desc=Software%20Engineering%20Student%20%7C%20Cybersecurity%20Enthusiast&descAlignY=55&descSize=18&animation=fadeIn" width="100%"/>
 
-<div align="center"> 
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=svk-vasanthkumar.svk-vasanthkumar&"  />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=800&color=FF6A00&center=true&vCenter=true&width=600&lines=Always+Learning+%E2%80%A2+Always+Building;Securing+Code%2C+One+Commit+at+a+Time;Software+Engineer+in+Progress..." alt="Typing SVG" />
+
+<img src="https://visitor-badge.laobi.icu/badge?page_id=svk-vasanthkumar.svk-vasanthkumar&color=FF6A00&style=for-the-badge" />
+
 </div>
 
-###
+<br>
 
 <div align="center">
-  <a href="www.linkedin.com/in/svk-vasanthkumar" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="55" height="28" alt="linkedin logo"  />
+  <a href="https://www.linkedin.com/in/svk-vasanthkumar" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0D0D0D?style=for-the-badge&logo=linkedin&logoColor=FF6A00&labelColor=0D0D0D" />
   </a>
   <a href="https://x.com/its__svk" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="55" height="28" alt="twitter logo"  />
+    <img src="https://img.shields.io/badge/X-0D0D0D?style=for-the-badge&logo=x&logoColor=FF6A00&labelColor=0D0D0D" />
   </a>
   <a href="https://www.instagram.com/svk__vasanthkumar/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="55" height="28" alt="instagram logo"  />
+    <img src="https://img.shields.io/badge/Instagram-0D0D0D?style=for-the-badge&logo=instagram&logoColor=FF6A00&labelColor=0D0D0D" />
   </a>
   <a href="https://www.hackerrank.com/profile/vasanth636807" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/hackerrank/default.svg" width="55" height="28" alt="hackerrank logo"  />
+    <img src="https://img.shields.io/badge/HackerRank-0D0D0D?style=for-the-badge&logo=hackerrank&logoColor=FF6A00&labelColor=0D0D0D" />
+  </a>
+  <a href="https://github.com/svk-vasanthkumar" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-0D0D0D?style=for-the-badge&logo=github&logoColor=FF6A00&labelColor=0D0D0D" />
   </a>
 </div>
 
-###
+<br>
 
-<h3 align="left">👩‍💻  About Me</h3>
+## 👨‍💻 About Me
 
-###
+```bash
+svk@kascore:~$ whoami --verbose
 
-<p align="center">🎓 IT Student passionate about tech & innovation<br>💻 Exploring the world of Software Engineering<br>🚀 Aiming for a career in IT & Development<br>🌱 Always learning, building & improving</p>
+┌──────────────────────────────────────────────┐
+│  Name       : Vasanthkumar S                  │
+│  Role       : IT / Software Engineering Student│
+│  Focus      : Cybersecurity • Web Development │
+│  Exploring  : Cloud • Backend • AI Systems     │
+│  Mindset    : Build. Break. Secure. Repeat.    │
+│  Mission    : Ship secure, reliable software   │
+└──────────────────────────────────────────────┘
 
-###
+svk@kascore:~$ status
+[ONLINE] Learning daily and shipping code 🟠
+```
 
-<h3 align="left">🛠 Language and tools</h3>
+<br>
 
-###
+## 🧠 Tech Arsenal
+
+<table align="center">
+<tr>
+<td valign="top" width="33%">
+
+**Programming**
+<br>
+<img src="https://skillicons.dev/icons?i=c,py,js" height="35"/>
+
+</td>
+<td valign="top" width="33%">
+
+**Frontend**
+<br>
+<img src="https://skillicons.dev/icons?i=html,css,js" height="35"/>
+
+</td>
+<td valign="top" width="33%">
+
+**Backend & DB**
+<br>
+<img src="https://skillicons.dev/icons?i=py,mysql,firebase" height="35"/>
+
+</td>
+</tr>
+<tr>
+<td valign="top" width="33%">
+
+**Cloud & Deploy**
+<br>
+<img src="https://skillicons.dev/icons?i=firebase,netlify,vercel" height="35"/>
+
+</td>
+<td valign="top" width="33%">
+
+**Tools**
+<br>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,pycharm,powershell" height="35"/>
+
+</td>
+<td valign="top" width="33%">
+
+**Design & Notes**
+<br>
+<img src="https://skillicons.dev/icons?i=canva,notion" height="35"/>
+<br>
+<img src="https://cdn.simpleicons.org/jupyter/FF6A00" height="35"/>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+## 📊 System Diagnostics
 
 <div align="center">
-  <img src="https://cdn.simpleicons.org/html5/E34F26" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=github" height="40" alt="github logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=c" height="40" alt="c logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/canva/00C4CC" height="40" alt="canva logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=git" height="40" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="40" alt="firebase logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=js" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/jupyter/F37626" height="40" alt="jupyter logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=mysql" height="40" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/netlify/00C7B7" height="40" alt="netlify logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="40" alt="numpy logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=py" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white&style=for-the-badge" height="40" alt="vercel logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=notion" height="40" alt="notion logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=powershell" height="40" alt="powershell logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=pycharm" height="40" alt="pycharm logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=vscode" height="40" alt="vscode logo"  />
+
+<img src="https://github-readme-stats.vercel.app/api?username=svk-vasanthkumar&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=react&hide_border=true&bg_color=0D0D0D&title_color=FF6A00&icon_color=FF6A00&text_color=FFFFFF" height="180" alt="stats graph"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=svk-vasanthkumar&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=12&theme=react&hide_border=true&bg_color=0D0D0D&title_color=FF6A00&text_color=FFFFFF" height="180" alt="languages graph"/>
+
+<br>
+
+<img src="https://streak-stats.demolab.com?user=svk-vasanthkumar&locale=en&mode=weekly&theme=dark&hide_border=true&border_radius=8&date_format=M%20j%5B,%20Y%5D&background=0D0D0D&ring=FF6A00&fire=FF6A00&currStreakLabel=FF6A00" height="200" alt="streak graph"/>
+
+<br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=svk-vasanthkumar&theme=react-dark&hide_border=true&bg_color=0D0D0D&color=FF6A00&line=FF6A00&point=FFFFFF&area=true&area_color=FF6A00" height="180" alt="activity-graph graph"/>
+
 </div>
 
-###
-
-<h3 align="left">🔥   My Stats :</h3>
-
-###
+<br>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=svk-vasanthkumar&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=12&theme=merko&hide_border=false&order=2" height="" alt="languages graph"  />
-  <img src="https://github-readme-stats.vercel.app/api?username=svk-vasanthkumar&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=merko&locale=en&hide_border=false&order=1" height="250" alt="stats graph"  />
-  <img src="https://streak-stats.demolab.com?user=svk-vasanthkumar&locale=en&mode=weekly&theme=merko&hide_border=false&border_radius=5&date_format=M%20j%5B,%20Y%5D&order=3" height="220" alt="streak graph"  />
-  <img src="https://github-profile-trophy.vercel.app?username=svk-vasanthkumar&theme=darkhub&no-frame=true&no-bg=true&margin-w=13&margin-h=0" height="150" alt="trophy graph"  />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=svk-vasanthkumar&theme=chartreuse-dark&area=true&hide_border=false&hide_title=false" height="150" alt="activity-graph graph"  />
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Thanks for visiting.**
+See you in the next commit. 🟠
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D0D0D,100:FF6A00&height=3&width=100%"/>
+
 </div>
-
-### 
-
-<div>
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=speech&height=100&section=header&reversal=false&text=S%20%20%20%20V%20%20%20%20%20%20%20%20K&fontSize=63&fontAlign=50&fontAlignY=50&stroke=-&animation=twinkling&descSize=20&descAlign=50&descAlignY=50&textBg=false&theme=merko"  />
-</div>
-
-###
