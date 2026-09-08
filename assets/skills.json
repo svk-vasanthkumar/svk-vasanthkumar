@@ -1,0 +1,9 @@
+{
+  "languages": ["Python", "JavaScript", "C", "Java", "TypeScript"],
+  "frontend": ["HTML", "CSS", "React"],
+  "backend": ["Node.js", "MySQL", "Firebase"],
+  "ai_ml": ["Scikit-learn", "Jupyter", "LLM APIs"],
+  "cybersecurity": ["Steganography", "AES Encryption", "Network Analysis", "OSINT"],
+  "cloud_deploy": ["Firebase", "Vercel", "Netlify"],
+  "tools": ["Git", "GitHub", "VS Code", "PyCharm", "Kali Linux", "PowerShell"]
+}
