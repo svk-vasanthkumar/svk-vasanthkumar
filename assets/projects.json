@@ -1,0 +1,29 @@
+[
+  {
+    "id": "secure-image-steg",
+    "name": "Secure-Image-Steganography",
+    "repo": "svk-vasanthkumar/Secure-Image-Steganography",
+    "description": "Hides encrypted data inside images using AES-256 and LSB steganography. Password-protected payloads — the carrier image looks untouched.",
+    "tags": ["Python", "AES-256", "Steganography", "Cryptography"],
+    "category": "Cybersecurity",
+    "demo": null
+  },
+  {
+    "id": "ai-nids",
+    "name": "AI-Based-Network-Intrusion-Detection",
+    "repo": "svk-vasanthkumar/AI-Based-Network-Intrusion-Detection",
+    "description": "ML pipeline for classifying network traffic as benign or malicious. Trains on the KDD Cup dataset; evaluates multiple classifiers for IDS deployment.",
+    "tags": ["Python", "Scikit-learn", "Network Security", "ML"],
+    "category": "AI × Security",
+    "demo": null
+  },
+  {
+    "id": "student-research-agent",
+    "name": "Student-Research-Agent",
+    "repo": "svk-vasanthkumar/Student-Research-Agent",
+    "description": "AI research assistant that decomposes academic queries, fetches sources, and synthesises structured summaries — reducing literature review time.",
+    "tags": ["Python", "LLM", "Agentic AI", "Cloud"],
+    "category": "AI Engineering",
+    "demo": null
+  }
+]
