@@ -1,0 +1,32 @@
+name: Refresh README Stats
+
+on:
+  # Refresh stats weekly (Sunday midnight UTC)
+  schedule:
+    - cron: "0 0 * * 0"
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    name: Trigger README image cache refresh
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    permissions:
+      contents: write
+
+    steps:
+      # Touch a timestamp file to force GitHub to re-render cached images
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update refresh timestamp
+        run: |
+          echo "Last refreshed: $(date -u '+%Y-%m-%d %H:%M UTC')" > .last-refresh
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .last-refresh
+          git diff --staged --quiet || git commit -m "chore: refresh readme stats [skip ci]"
+          git push
