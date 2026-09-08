@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 380" width="100%" height="380" style="font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <filter id="og" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="gg" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0A0A"/>
+      <stop offset="100%" stop-color="#0F0F0F"/>
+    </linearGradient>
+    <linearGradient id="panel-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.01"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-opacity="0.018" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="380" fill="url(#bg-grad)"/>
+  <rect width="1280" height="380" fill="url(#grid)"/>
+
+  <!-- Top architecture lines -->
+  <g fill="none" stroke="white" stroke-opacity="0.03">
+    <path d="M 220 80 L 400 80 L 440 120 L 840 120 L 880 80 L 1060 80" stroke-width="0.6"/>
+    <circle cx="220" cy="80" r="2" fill="white" fill-opacity="0.06"/>
+    <circle cx="1060" cy="80" r="2" fill="white" fill-opacity="0.06"/>
+    <path d="M 60 160 L 60 320" stroke-width="0.5"/>
+    <path d="M 1220 160 L 1220 320" stroke-width="0.5"/>
+    <polygon points="1110,170 1130,181 1130,203 1110,214 1090,203 1090,181" stroke-width="0.5"/>
+  </g>
+
+  <!-- Left accent bracket -->
+  <g fill="none" stroke="#FF6A00" stroke-opacity="0.5" stroke-width="1.2">
+    <path d="M 60 155 L 48 155 L 48 230 L 60 230"/>
+  </g>
+
+  <!-- Right accent bracket -->
+  <g fill="none" stroke="#FF6A00" stroke-opacity="0.5" stroke-width="1.2">
+    <path d="M 1220 155 L 1232 155 L 1232 230 L 1220 230"/>
+  </g>
+
+  <!-- Top-left: identifier -->
+  <g transform="translate(72, 52)">
+    <rect x="0" y="0" width="8" height="8" rx="1.5" fill="#FF6A00" filter="url(#og)" opacity="0.9"/>
+    <rect x="0" y="12" width="8" height="8" rx="1.5" fill="#FF6A00" opacity="0.4"/>
+    <text x="20" y="9" font-size="11" font-weight="600" fill="#FF6A00" letter-spacing="2" opacity="0.9">SVK</text>
+    <text x="20" y="21" font-size="9" fill="#555555" letter-spacing="1">GITHUB.COM/SVK-VASANTHKUMAR</text>
+  </g>
+
+  <!-- Top-right: status -->
+  <g transform="translate(1140, 52)">
+    <circle cx="8" cy="8" r="4" fill="#39FF14" filter="url(#gg)" opacity="0.85"/>
+    <text x="-6" y="12" font-size="10" fill="#777777" text-anchor="end" letter-spacing="1">SYSTEM ONLINE</text>
+  </g>
+
+  <!-- Center: name -->
+  <g text-anchor="middle">
+    <text x="640" y="188" font-size="54" font-weight="700" fill="#FFFFFF" letter-spacing="1.5" opacity="0.97">VASANTHKUMAR S</text>
+    <text x="640" y="225" font-size="17" font-weight="400" fill="#CCCCCC" letter-spacing="0.5">
+      Software Engineering Student&#160;&#160;<tspan fill="#FF6A00" font-weight="700">•</tspan>&#160;&#160;Cybersecurity&#160;&#160;<tspan fill="#FF6A00" font-weight="700">•</tspan>&#160;&#160;AI&#160;&#160;<tspan fill="#FF6A00" font-weight="700">•</tspan>&#160;&#160;Secure Digital Products
+    </text>
+    <text x="640" y="256" font-size="13" fill="#666666" font-style="italic" letter-spacing="0.3">Building software that works — and holds.</text>
+  </g>
+
+  <!-- Info bar -->
+  <g transform="translate(290, 295)">
+    <rect x="0" y="0" width="700" height="56" rx="6" fill="url(#panel-grad)" stroke="white" stroke-opacity="0.06" stroke-width="0.6"/>
+
+    <!-- Item 1 -->
+    <text x="60" y="22" font-size="10" fill="#555555" text-anchor="middle" letter-spacing="1">FOCUS</text>
+    <text x="60" y="38" font-size="12" font-weight="600" fill="#FF6A00" text-anchor="middle" letter-spacing="0.5">Cybersecurity</text>
+
+    <!-- Divider -->
+    <line x1="125" y1="14" x2="125" y2="42" stroke="white" stroke-opacity="0.08" stroke-width="0.6"/>
+
+    <!-- Item 2 -->
+    <text x="210" y="22" font-size="10" fill="#555555" text-anchor="middle" letter-spacing="1">BUILDING</text>
+    <text x="210" y="38" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">Secure Software</text>
+
+    <!-- Divider -->
+    <line x1="290" y1="14" x2="290" y2="42" stroke="white" stroke-opacity="0.08" stroke-width="0.6"/>
+
+    <!-- Item 3 -->
+    <text x="385" y="22" font-size="10" fill="#555555" text-anchor="middle" letter-spacing="1">EXPLORING</text>
+    <text x="385" y="38" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">AI Systems</text>
+
+    <!-- Divider -->
+    <line x1="465" y1="14" x2="465" y2="42" stroke="white" stroke-opacity="0.08" stroke-width="0.6"/>
+
+    <!-- Item 4 -->
+    <text x="583" y="22" font-size="10" fill="#555555" text-anchor="middle" letter-spacing="1">INSTITUTION</text>
+    <text x="583" y="38" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.3">Adhiyamaan College · '27</text>
+  </g>
+
+  <!-- Subtle bottom line accent -->
+  <line x1="290" y1="368" x2="630" y2="368" stroke="#FF6A00" stroke-opacity="0.25" stroke-width="0.8"/>
+  <circle cx="640" cy="368" r="2" fill="#FF6A00" filter="url(#og)" opacity="0.4"/>
+  <line x1="650" y1="368" x2="990" y2="368" stroke="#FF6A00" stroke-opacity="0.25" stroke-width="0.8"/>
+</svg>
