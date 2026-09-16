@@ -6,6 +6,13 @@
   <img src="assets/banner.svg" alt="Vasanthkumar S — Software Engineer · Cybersecurity · AI" width="100%"/>
 </picture>
 
+<div align="center">
+  <img
+    src="https://komarev.com/ghpvc/?username=svk-vasanthkumar&label=PROFILE+VIEWS&color=ff6b00&style=for-the-badge"
+    alt="Profile Views"
+  />
+</div>
+
 <br/>
 
 <!-- Typing animation — clean and on-brand -->
